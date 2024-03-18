@@ -52,18 +52,4 @@ And the NVF has a connection to both and functions as a router between the 2 net
 |NVF|10.0.10.1/24|
 |NVF|10.0.20.1/24|
 |Nameserver|10.0.10.53/24|
-
-### Setup the Lab
-
-#### Requirements
-- tofu
-- libvirt
-- virsh
-- kvm
-
-#### Commands to deploy lab
-```shell
-tofu init
-tofu plan
-tofu apply
 ```
